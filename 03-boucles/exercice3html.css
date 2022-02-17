@@ -1,0 +1,19 @@
+
+body{
+    background-color: rgb(228, 195, 228);
+    min-width: 10000 px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.table{
+    width: 20%;
+}
+
+@media ( max-width : 700px){
+    .table{
+        width: 100%;
+        text-align: center; /*pour center un texte*/
+    }
+}
